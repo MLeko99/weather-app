@@ -1,12 +1,14 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-
 import React from "react";
+import Weather from "./components/Weather";
 
 const App = () => {
-  return <div></div>;
+  return (
+    <div className="app-wrapper">
+      <h1>Weather App</h1>
+      <Weather />
+    </div>
+  );
 };
 
 export default App;
